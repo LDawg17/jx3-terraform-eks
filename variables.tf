@@ -4,7 +4,6 @@
 variable "region" {
   description = "AWS region code for creating resources."
   type        = string
-  default = ["us-west-1a"]
 }
 
 variable "profile" {
